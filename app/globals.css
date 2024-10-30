@@ -19,3 +19,88 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+p {
+  border: 2px solid #ffffff; /* White border for contrast */
+  border-radius: 12px;      /* Rounded corners */
+  padding: 16px;            /* Inner spacing */
+  margin: 16px 0;          /* Spacing around the paragraph */
+  color: #f0f0f0;           /* Light gray text color for readability */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+  font-size: 1.1rem;        /* Slightly larger font size */
+  line-height: 1.5;         /* Improved line spacing for readability */
+}
+
+a {
+  color: #1e90ff; /* Bright blue color for links */
+  text-decoration: none; /* Remove the default underline */
+  padding: 8px 12px; /* Padding around the text */
+  border: 2px solid transparent; /* Set a transparent border */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+  color: #ffffff; /* Change text color to white on hover */
+  border-color: #1e90ff; /* Change border color to blue on hover */
+}
+
+a:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px rgba(30, 144, 255, 0.5); /* Add custom focus effect */
+}
+
+
+
+/* styles/globals.css or styles/your-styles-file.css */
+h1 {
+    font-size: 3rem; /* Adjusted font size to make it slightly smaller */
+    font-weight: bold; /* Bold text */
+    color: #ffffff; /* White color for contrast */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Margin above and below the header */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+    background: linear-gradient(90deg, #1e90ff, #ff6f61); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent */
+    padding: 10px; /* Add some padding */
+    border-bottom: 4px solid #1e90ff; /* Bottom border for emphasis */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* styles/globals.css or styles/your-styles-file.css */
+
+body {
+  background-color: black; /* Set the background to black */
+  font-family: Arial, sans-serif; /* Set a default font for the body */
+}
+
+
+h2 {
+  font-size: 2rem; /* Subheader font size */
+  color: transparent; /* Make the text color transparent */
+  background: linear-gradient(90deg, #1e90ff, #32cd32); /* Gradient for h2 text */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text; /* Support for other browsers */
+  text-fill-color: transparent; /* Make the text color transparent */
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Margin for subheader */
+  padding: 10px; /* Add padding */
+  border: 4px solid transparent; /* Set transparent border */
+  border-image: linear-gradient(90deg, #32cd32, #1e90ff) 1; /* Gradient border for h2 */
+}
+
+p {
+  font-size: 1.1rem; /* Paragraph font size */
+  line-height: 1.5; /* Improve line spacing for readability */
+  color: transparent; /* Make the text color transparent */
+  background: linear-gradient(90deg, #ff6f61, #ffcc00); /* Gradient for p text */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text; /* Support for other browsers */
+  text-fill-color: transparent; /* Make the text color transparent */
+  margin: 10px 0; /* Margin for paragraph spacing */
+  padding: 10px; /* Add padding */
+  border: 4px solid transparent; /* Set transparent border */
+  border-image: linear-gradient(90deg, #ffcc00, #ff6f61) 1; /* Gradient border for p */
+}
